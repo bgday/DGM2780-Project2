@@ -1,0 +1,205 @@
+/* Scss Document */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 8, ../scss/partials/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 29, ../scss/partials/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 33, ../scss/partials/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 36, ../scss/partials/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 39, ../scss/partials/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 42, ../scss/partials/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 47, ../scss/partials/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Scss Document */
+/* line 3, ../scss/partials/_general.scss */
+html, body, * {
+  box-sizing: border-box;
+}
+
+/* line 7, ../scss/partials/_general.scss */
+.page-wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px 30px;
+  background: #fff;
+}
+
+/* line 3, ../scss/partials/_header.scss */
+#header {
+  font-family: Helvetica, sans-serif;
+}
+/* line 7, ../scss/partials/_header.scss */
+#header h1 {
+  margin-bottom: 20px;
+  float: left;
+  font-size: 40px;
+}
+/* line 13, ../scss/partials/_header.scss */
+#header:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+/* line 17, ../scss/partials/_header.scss */
+#header nav {
+  margin-top: 12px;
+  float: right;
+}
+/* line 21, ../scss/partials/_header.scss */
+#header nav li {
+  float: left;
+  list-style: none;
+  font-size: 18px;
+  margin-left: 5px;
+}
+/* line 27, ../scss/partials/_header.scss */
+#header nav li a {
+  text-decoration: none;
+  color: #000;
+}
+/* line 31, ../scss/partials/_header.scss */
+#header nav li a:hover {
+  color: #767676;
+}
+
+/* line 3, ../scss/partials/_footer.scss */
+#footer {
+  font-family: Helvetica, sans-serif;
+}
+/* line 4, ../scss/partials/_footer.scss */
+#footer:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+/* line 9, ../scss/partials/_footer.scss */
+#footer nav {
+  padding-top: 25px;
+  text-align: center;
+  width: 100%;
+}
+/* line 14, ../scss/partials/_footer.scss */
+#footer nav li {
+  display: inline;
+  list-style: none;
+  font-size: 18px;
+}
+/* line 19, ../scss/partials/_footer.scss */
+#footer nav li a {
+  text-decoration: none;
+  color: #000;
+}
+/* line 23, ../scss/partials/_footer.scss */
+#footer nav li a:hover {
+  color: #767676;
+}
+
+/* line 3, ../scss/pages/_home-page.scss */
+#home-page {
+  font-family: Helvetica, sans-serif;
+}
+/* line 5, ../scss/pages/_home-page.scss */
+#home-page .banner-img {
+  background-image: url(../img/Bikers.jpg);
+  width: 940px;
+  height: 240px;
+  margin-bottom: 46.66666666666667px;
+}
+/* line 12, ../scss/pages/_home-page.scss */
+#home-page .p-model, #home-page h2, #home-page .block2 p {
+  margin-bottom: 25px;
+}
+/* line 16, ../scss/pages/_home-page.scss */
+#home-page h2 {
+  font-size: 25px;
+}
+/* line 21, ../scss/pages/_home-page.scss */
+#home-page .block1, #home-page .block2 {
+  margin-bottom: 46.66666666666667px;
+}
+/* line 27, ../scss/pages/_home-page.scss */
+#home-page .block2 div {
+  width: 446.6666666666667px;
+  float: left;
+}
+/* line 36, ../scss/pages/_home-page.scss */
+#home-page .block2 .content1 {
+  margin-right: 46.66666666666667px;
+}
+/* line 40, ../scss/pages/_home-page.scss */
+#home-page .block2:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+/* line 45, ../scss/pages/_home-page.scss */
+#home-page .thumbnails {
+  margin-bottom: 46.66666666666667px;
+}
+/* line 47, ../scss/pages/_home-page.scss */
+#home-page .thumbnails:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+/* line 51, ../scss/pages/_home-page.scss */
+#home-page .thumbnails div {
+  margin-right: 4.96454%;
+  width: 21.2766%;
+  height: 200px;
+  float: left;
+}
+/* line 56, ../scss/pages/_home-page.scss */
+#home-page .thumbnails div:last-child {
+  margin-right: 0;
+}

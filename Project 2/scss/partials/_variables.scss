@@ -1,0 +1,12 @@
+// Variables
+
+$font-stack: Helvetica, sans-serif;
+$hover-color: #767676;
+$text-color: #000;
+$bg-color:#fff;
+
+@mixin clear-fix {
+	display:block;
+	content:"";
+	clear:both;
+}

@@ -1,0 +1,12 @@
+/* Scss Document */
+
+html, body, * {
+	box-sizing:border-box;
+}
+
+.page-wrapper {
+	width:1000px;
+	margin:0 auto;
+	padding:20px 30px;
+	background:$bg-color;
+}

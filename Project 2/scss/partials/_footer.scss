@@ -1,0 +1,29 @@
+// Footer SCSS
+
+#footer {
+	&:after {
+			@include clear-fix
+		}
+	font-family:$font-stack;
+	
+	nav {
+		padding-top:25px;
+		text-align:center;
+		width:100%;
+
+		li {
+			display:inline;
+			list-style:none;
+			font-size:18px;
+				
+			a {
+				text-decoration:none;
+				color:$text-color;
+							
+				&:hover {
+					color:$hover-color;
+				}
+			} //a
+		} //li				
+	} //nav
+}
